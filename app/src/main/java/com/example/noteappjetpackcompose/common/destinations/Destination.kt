@@ -9,5 +9,5 @@ sealed class Destination {
     data object NoteListingScreen: Destination()
 
     @Serializable
-    data class NoteDetailScreen(val note: Note): Destination()
+    data class NoteAddEditScreen(val note: Note): Destination()
 }
